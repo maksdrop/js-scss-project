@@ -1,0 +1,19 @@
+.card {
+  height: 100vh;
+  padding-top: 20px;
+  background: #ececec;
+
+  &__container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding-bottom: 12px;
+    border-radius: 8px;
+    background: $textСolor-white;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .card__container {
+    padding-bottom: 16px;
+  }
+}
